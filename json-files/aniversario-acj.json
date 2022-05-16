@@ -1,0 +1,13 @@
+pictures = {
+    "pic11": "aniversario-aikido-acj-portones-clase-11.jpg",
+    "pic1":"aniversario-aikido-acj-portones-clase-01.jpg",
+    "pic2": "aniversario-aikido-acj-portones-clase-02.jpg",
+    "pic3": "aniversario-aikido-acj-portones-clase-03.jpg",
+    "pic4": "aniversario-aikido-acj-portones-clase-04.jpg",
+    "pic5": "aniversario-aikido-acj-portones-clase-05.jpg",
+    "pic6": "aniversario-aikido-acj-portones-clase-06.jpg",
+    "pic7": "aniversario-aikido-acj-portones-clase-07.jpg",
+    "pic8": "aniversario-aikido-acj-portones-clase-08.jpg",
+    "pic9": "aniversario-aikido-acj-portones-clase-09.jpg",
+    "pic10": "aniversario-aikido-acj-portones-clase-10.jpg"
+};

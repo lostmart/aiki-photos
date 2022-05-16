@@ -1,0 +1,28 @@
+#myCarousel{
+	.first-slide{
+		max-width: 444px;
+    margin-top: 20px;
+	}
+
+	.myCarousel__item1{
+		margin-top: 175px;
+	}
+
+	.carousel-control:hover, .carousel-control:focus{
+		opacity: 0
+	}
+
+	.carousel-indicators li{
+		border: 1px solid grey;
+
+	}
+	.active {
+    background-color: $brand-primary;
+	}
+	.left_arrow{position: absolute;
+    left: -17px;
+    bottom: 50%;}
+	.right_arrow{position: absolute;
+    right: -17px;
+    bottom: 50%;}
+}

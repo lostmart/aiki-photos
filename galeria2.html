@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Asociacion Samurai Aikido Kawai</title>
+      <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/custom.css" rel="stylesheet">
+      <link href="bower_components\lightbox2\src\css\lightbox.css" rel="stylesheet">
+    </head>
+
+
+
+
+  <body>
+    <div class="encajador">
+      <div class="container">
+        <div class="row">
+            <div class="col text-right">          
+              <a href="https://www.facebook.com/samuraiaikdokawai/"><img src="img/logo-facebook.png" width="30" height="30" alt="Facebook Asociación Samurai Kawai Aikido Uruguay"></a> 
+              <a href="https://www.instagram.com/enriquesilveraa/" target="_blank"><img src="img/logo-instagram.png" width="30" height="30"></a></p>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-2 text-right p-0">
+                <img src="img/logo-asak-fondo-transparente.png" height="100" alt="Asociación Samurai Kawai Aikido Uruguay">
+            </div>
+            <div class="col-10 pb-3">
+              <h1 class="d-inline samurai-titulo">ASOCIACION SAMURAI KAWAI <br>
+                AIKIDO URUGUAY</h1>
+            </div>
+          </div>    
+      </div><!--- container  -->
+    </div><!---  encajador  -->
+      <ul class="nav nav-pills nav-justified pr-5 pl-5">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.aikido.com.uy">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/sensei.html">SENSEI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/aikido.html">AIKIDO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/dojos.html">DOJOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contacto.html">CONTACTO</a>
+        </li>
+      </ul>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+
+          <a href="img\aniversario-acj\aniversario-aikido-acj-portones.jpg" data-lightbox="aniversario-acj">
+            <img class="img-thumbnail" src="img\aniversario-acj\aniversario-aikido-acj-portones.jpg"
+              alt="aniversario acj portones- 31 de mayo, 2017">
+            <p class="text-center">Aniversario ACJ Portones</p>
+        </a>
+          <span id="images-conts">
+
+          </span>
+
+        </div>
+      </div>
+  </div>
+  </div>
+    <!-- /.container -->
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+    <script src="json-files/aniversario-acj.json"></script>
+    <script src="bower_components\lightbox2\src\js\lightbox.js"></script>
+    <script>
+    var pictures;
+
+    for(x in pictures){
+      document.getElementById("images-conts").innerHTML += ' <a href="img/aniversario-acj/'+ pictures[x] +'" data-lightbox="aniversario-acj"></a> ';
+      }
+
+
+    </script>
+
+  </body>
+</html>

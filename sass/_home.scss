@@ -1,0 +1,28 @@
+body{
+  font-family: $primary-font;
+}
+
+
+.video-intro{width: 99%;
+    height: 311px;
+    border: 2px solid #949494;
+    background: #fff;
+  }
+
+.kawai-sensei{
+    width: 35%;
+    display: inline-block;
+    float: left;
+  }
+.kawai-paragraph{
+  display: inline-block;
+  width: 63%;
+  float: right;
+  text-align: justify;
+  font-family: $sec-font;
+  line-height: 2rem;
+}
+
+.intro-vid{
+  width: 99%;
+}

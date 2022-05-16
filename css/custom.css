@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica;
+}
+
+.nav{
+    background-color: #eb1c22;
+    padding-left: 7.5rem!important;
+    padding-left: 7.5rem!important;
+}
+
+.nav a{
+    color: blanchedalmond;
+}
+
+.intro-vid {
+    width: 99%;
+}
+
+.active{
+    background-color: #ff7e00 !important;
+    border-radius: 0 !important;
+}
+
+.encajador{
+    background-color: #f0e7e8;
+}
+
+.btn-primary{
+    background-color: #eb1c22;
+    border-color: #eb1c22;
+}
+
+.btn-primary:hover{
+    background-color: #ff7e00;
+    border-color: #ff7e00;
+}
+
+.samurai-titulo{
+    font-family: 'Oswald', sans-serif;
+}
