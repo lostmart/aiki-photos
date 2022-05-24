@@ -134,25 +134,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script>
-    console.log("test")
-    const imgsArray = [
-      "asak-en-aniversario-de-ippon-dojo-1ch.jpg", 
-      "asak-en-aniversario-de-ippon-dojo-2ch.jpg",
-      "asak-en-aniversario-de-ippon-dojo-3ch.jpg",
-      "asak-en-aniversario-de-ippon-dojo-4ch.jpg",
-      "asak-en-aniversario-de-ippon-dojo-5ch.jpg",
-    ]
+    const imgsArray = []
+    // populate image array (small)
+    for (let i = 1; i < 24; i++) {
+      const e = `interescuelas-aikido${i}ch.jpg` 
+      imgsArray.push(e)      
+    }
     const imgsGrArray = [
-      "asak-en-aniversario-de-ippon-dojo-1g.jpg", 
-      "asak-en-aniversario-de-ippon-dojo-2g.jpg",
-      "asak-en-aniversario-de-ippon-dojo-3g.jpg",
-      "asak-en-aniversario-de-ippon-dojo-4g.jpg",
-      "asak-en-aniversario-de-ippon-dojo-5g.jpg",
     ]
+    // populate image array (big)
+    for (let i = 1; i < 24; i++) {
+      const e = `interescuelas-aikido${i}g.jpg` 
+      imgsGrArray.push(e)      
+    }
+
+    // controls the image index in fullscreen
     let imgIndx = 0
 
+    // populates HTML
     imgsArray.forEach((img, i)=>{
-      document.querySelector(".imgCont").innerHTML += `<img src="./asak-en-aniversario-de-ippon-dojo/${img}" 
+      document.querySelector(".imgCont").innerHTML += `<img src="./interescuelas-listas/${img}" 
       data-toggle="modal" 
       data-target="#imgModal"
       class="imgThumb"
@@ -164,7 +165,7 @@
       imgIndx = e
       document.querySelector(".modal-body").innerHTML = `
       <span class="spanL" onclick="next(-1)">&#8249;</span> 
-        <img class="img-fluid imgGr" src="./asak-en-aniversario-de-ippon-dojo/${imgsGrArray[imgIndx]}"  />  
+        <img class="img-fluid imgGr" src="./interescuelas-listas/${imgsGrArray[imgIndx]}"  />  
         <span class="spanR" onclick="next(1)">&#8250;</span>
       `
     }
@@ -179,7 +180,7 @@
       
       document.querySelector(".modal-body").innerHTML = `
       <span class="spanL" onclick="next(-1)">&#8249;</span> 
-        <img class="img-fluid imgGr" src="./asak-en-aniversario-de-ippon-dojo/${imgsGrArray[imgIndx]}"  />  
+        <img class="img-fluid imgGr" src="./interescuelas-listas/${imgsGrArray[imgIndx]}"  />  
         <span class="spanR" onclick="next(1)">&#8250;</span>
       `
     }
